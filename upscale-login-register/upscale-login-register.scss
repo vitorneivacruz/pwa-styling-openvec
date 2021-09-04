@@ -125,9 +125,16 @@
 			width: 100%;
 			min-width: 250px;
 			height: 40px;
-			color: #ffffff;
 			border-radius: 2px;
-			background-color: #000000;
+				border-radius: 2px;
+				border: solid 2px #B15533;
+				font-family: 'Poppins' !important;
+				color: $black;
+				background-color: $white;
+				display: inline-flex;
+				text-decoration: none;
+				justify-content: center;
+				align-items: center;
 			@include small-font-size;
 			font-weight: 500;
 			&:disabled {

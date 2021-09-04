@@ -74,10 +74,16 @@
 				margin-left: $small-spacer-tablet;
 				min-width: 250px;
 				height: 40px;
-				color: #000000;
+                border-radius: 2px;
 				border-radius: 2px;
-				border: solid 2px $black;
+				border: solid 2px #B15533;
+				font-family: 'Poppins' !important;
+				color: $black;
 				background-color: $white;
+				display: inline-flex;
+				text-decoration: none;
+				justify-content: center;
+				align-items: center;
 				@include small-font-size;
 				font-weight: 500;
 				&:hover {
@@ -89,7 +95,7 @@
 }
 
 .register-content {
-	display: none;
+	//display: none;
 	width: 100%;
 	.title {
 		@include large-font-size;
@@ -161,7 +167,7 @@ a {
 }
 
 .vertical-line {
-	display: none !important;
+	//display: none !important;
 	border-left: 1px solid $upscale-grey6;
 	padding: 0px 45px;
 }
@@ -203,7 +209,7 @@ a {
 			}
 		}
 		.vertical-line {
-			display: none i !important;
+			//display: none i !important;
 		}
 	}
 }
@@ -228,7 +234,7 @@ a {
 			}
 		}
 		.vertical-line {
-			display: none !important;
+			//display: none !important;
 			padding-left: 0px;
 			padding-right: 30px;
 		}

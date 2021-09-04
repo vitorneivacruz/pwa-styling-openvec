@@ -140,7 +140,12 @@
 			&:disabled {
 				background-color: #dadada;
 				color: $upscale-grey4;
+                border:$upscale-grey4;
 			}
+            &:hover {
+                background-color: darken(white, 10%);
+
+            }
 		}
 	}
 }

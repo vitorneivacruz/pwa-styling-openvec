@@ -23,7 +23,7 @@ $space-between: 10px;
 				border: 0;
 				outline: 0;
 				height: 54px;
-				margin-right: 35px !important ;
+				//margin-right: 35px !important ;
 				a {
 					@include button($background-color: #333333, $border-radius: 2px);
 					@include small-font-size;

@@ -77,7 +77,11 @@ em {
 	&.card {
 		border: solid 1px $upscale-grey11;
 		margin-bottom: 10px;
+		//VC changes
 		box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15) !important;
+		background-color: white;
+		margin-left: 10px;
+		margin-right: 10px;
 
 		.attribute-details {
 			&__banner-headline {

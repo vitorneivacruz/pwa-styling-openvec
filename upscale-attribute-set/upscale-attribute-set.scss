@@ -73,7 +73,7 @@
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
-			background-color: #B15533; // $white;
+			background-color: $white;
 			border: none;
 			display: flex;
 			padding: 6px 12px;
@@ -84,8 +84,7 @@
 			font-weight: 500;//700;
 			cursor: pointer;
 			border-radius: 4px;
-			font-size: 16px;
-			line-height: 26px;
+			
 
 			&:focus {
 				outline: none;
@@ -266,6 +265,7 @@
 			align-items: center;
 			justify-content: center;
 			font-weight: 500;
+            background-color: #B15533 !important;
 
 			&.disabled {
 				background-color: $upscale-grey10;

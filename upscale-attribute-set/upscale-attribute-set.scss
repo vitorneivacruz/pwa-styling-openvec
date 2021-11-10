@@ -292,11 +292,13 @@
 
 			&--empty {
 				background-color: $white;
-				color: $black;
+				color: white; // $black;
 				border-radius: 4px;
 				width: 75px;
 				border: 2px solid $upscale-grey11;
-
+                max-width: 110px;  
+                border-color: #b15533;
+                
 				&:hover {
 					background-color: $upscale-grey11;
 				}
@@ -315,9 +317,12 @@
 
 		.change {
 			margin-left: 6px;
-			border-color: $black;
+			//border-color: $black;
 			width: 100%;
 			max-width: 110px;
+            border-color: #b15533;
+            color: white !important;
+
 		}
 	}
 }

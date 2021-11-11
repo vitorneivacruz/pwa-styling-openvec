@@ -231,7 +231,8 @@
 		font-weight: 500;
 		font-style: italic;
 		letter-spacing: normal;
-		color: $error;
+		//color: $error;
+		color: #424242;
 	}
 
 	.actions {
@@ -349,4 +350,9 @@
 
 .customization-quantity.ng-star-inserted::before {
 
-    content: "Quantos produtos quer com este nome?";}
+    content: "Quantos produtos quer com este nome?";
+    font-size: 14px;
+    line-height: 1.57;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #424242;}

@@ -6,6 +6,16 @@
 
 	.formgroup {
 		&__container {
+			&:nth-child(7) {
+				&-header{
+					font-size: 0 !important;
+				}
+				&-header::before {
+					content: "Condições de Venda" !important;
+					font-size: 1.8rem !important;
+				}
+			}
+
 			border-radius: 3px;
 			overflow: hidden;
 			position: relative;
@@ -147,16 +157,6 @@
 
 		&__message {
 			margin: 6px 0;
-		}
-	
-		&__container:nth-child(7) {
-			header{
-				font-size: 0 !important;
-			}
-			header::before {
-				content: "Condições de Venda" !important;
-				font-size: 1.8rem !important;
-			}
 		}
 	}
 }

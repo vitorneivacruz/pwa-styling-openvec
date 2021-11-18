@@ -306,11 +306,3 @@ select {
 		margin-top: -8px;
 	}
 }
-
-upscale-formgroup-input-container.formgroup-input-container:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
-    font-size: 0;
-}
-upscale-formgroup-input-container.formgroup-input-container:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)::before {
-    content: "texto";
-    font-size: 1.8rem;
-}

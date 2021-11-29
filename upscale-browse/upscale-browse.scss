@@ -236,3 +236,38 @@
 		}
 	}
 }
+:host {
+	.carousel-container {
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+		padding: 15px 5px;
+
+		.slide {
+			flex: 0 0 200px;
+			margin: 0 10px 8px;
+			align-self: stretch;
+			@include clickable;
+			height: auto;
+		}
+
+		.scroll {
+			display: flex;
+			overflow: auto;
+			width: 100%;
+			scrollbar-width: none;
+			-ms-overflow-style: none;
+			align-items: center;
+
+			upscale-loading-skeleton.default {
+				display: flex;
+				flex-direction: column;
+				min-height: 183px;
+				border-radius: 2px;
+				background-color: white;
+				box-shadow: 0 2px 4px 0 rgb(0 0 0 / 7%);
+				height: 100%;
+			}
+		}
+	}
+}

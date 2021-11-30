@@ -123,13 +123,10 @@ mat-icon {
 					width: 165px;
 					//background-color: #9C9C9C !important;
 				}
+				div.category-row:nth-child(1) > upscale-category-list:nth-child(1) > div:nth-child(1){
+						display: none !important;
+				}
 			}
 		}
 	}
-}
-
-@media screen and (max-width: 600px){
-	div.category-row:nth-child(1) {
-	display: none !important;
-}
 }

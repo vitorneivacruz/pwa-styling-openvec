@@ -321,6 +321,7 @@ a {
 }
 
 .column {
+	@include column();
 	display: flex;
 	flex-direction: column;
 	min-width: 0;
@@ -330,6 +331,7 @@ a {
 }
 
 .row {
+	@include row();
 	display: flex;
 	flex-direction: row;
 	min-width: 0;
@@ -438,11 +440,11 @@ a {
 }
 
 [_nghost-serverApp-c270] {
-	background-color: white;
+	background-color: white !important;
 }
 
 .image[_ngcontent-serverApp-c270] .product-image[_ngcontent-serverApp-c270] {
-	background-color: white;
+	background-color: white !important;
 }
 
 .product-tile[_nghost-serverApp-c186] {

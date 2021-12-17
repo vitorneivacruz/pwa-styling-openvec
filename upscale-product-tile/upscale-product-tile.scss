@@ -209,7 +209,7 @@
 	background-color: #FAFAFA !important; //white; change color of background tile
 	padding: 0;
 	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15) !important; //test
-	
+
 	.colors {
 		margin: 12px 0;
 
@@ -434,6 +434,7 @@ a {
 
 .product-tile{
 	cursor: pointer !important;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15) !important; //test
 }
 
 .product-tile[_ngcontent-serverApp-c273] {

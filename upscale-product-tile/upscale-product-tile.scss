@@ -205,10 +205,9 @@
 }
 }
 :host {
-        @include column(); // Only holds true when in grid view.
+    @include column(); // Only holds true when in grid view.
 	background-color: #FAFAFA !important; //white; change color of background tile
 	padding: 0;
-	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15) !important; //test
 
 	.colors {
 		margin: 12px 0;

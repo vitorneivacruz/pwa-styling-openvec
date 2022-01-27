@@ -119,6 +119,7 @@
 			.content-subheadline,
 			.article-subheadline {
 				@include multiline-truncate-text-with-ellipsis(16px, 1.5, 2);
+				font-family: 'Poppins';
 			}
 
 			.link-text {
@@ -363,6 +364,7 @@
 				.content-subheadline,
 				.article-subheadline {
 					@include multiline-truncate-text-with-ellipsis(14px, 1.57, 2);
+					font-family: 'Poppins';
 				}
 
 				.link-text {

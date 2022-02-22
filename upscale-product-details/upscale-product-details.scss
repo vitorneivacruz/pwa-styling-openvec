@@ -11,7 +11,7 @@ $fixed-button-bar-height: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #FAFAFA !important;
+	background-color: #f1f1f1 !important;
 
 	.contentWrapper {
 		&.fixed {
@@ -818,7 +818,8 @@ $fixed-button-bar-height: 100px;
 	justify-content: center;
 	font-stretch: normal;
 	font-style: normal;
-	color: $black;
+	color: #B15533; //$black; VC Change
+	font-weight: 500 !important;
 }
 
 .kit-title {
@@ -841,7 +842,8 @@ $fixed-button-bar-height: 100px;
 		display: flex;
 		-webkit-align-content: flex-end;
 		align-content: flex-end;
-		justify-content: center;		
+		justify-content: center;	
+		align-items: center; // VC change	
 	}
 
 	&-title {
@@ -859,11 +861,13 @@ $fixed-button-bar-height: 100px;
 			justify-content: center;
 			font-stretch: normal;
 			font-style: normal;
-			color: $black;
+			color: #333333; //$black; VC change
+			font-weight: 500 !important;
 
 			&-dialog {
 				font-weight: 500;
 				text-decoration: underline;
+				visibility: hidden; // VC change
 			}
 		}
 

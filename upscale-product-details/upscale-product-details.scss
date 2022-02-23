@@ -721,6 +721,7 @@ $fixed-button-bar-height: 100px;
 				gap: 10px;
 				.shipping-icon {
 					padding: 5px;
+					visibility: hidden; // VC Change
 				}
 			}
 
@@ -768,6 +769,8 @@ $fixed-button-bar-height: 100px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	background-color: rgb(177, 85, 51); //VC change
+	font-family: 'Poppins';
 }
 
 .close-button {

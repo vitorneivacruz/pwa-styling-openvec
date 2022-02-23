@@ -901,7 +901,8 @@ $fixed-button-bar-height: 100px;
 			font-stretch: normal;
 			letter-spacing: normal;
 			color: $black;
-            padding-bottom: 20px //VC change
+            padding-bottom: 20px; //VC change
+			font-size: 21px !important; // VC Changege
 		}
 	}
 }

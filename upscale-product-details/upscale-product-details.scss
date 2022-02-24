@@ -691,6 +691,7 @@ $fixed-button-bar-height: 100px;
 		margin: 0px 20px 0px 20px;
 
 		upscale-shipping-options::ng-deep {
+			visibility: hidden; // VC change
 			mat-radio-group {
 				&.shipping-choices {
 					font-weight: normal;

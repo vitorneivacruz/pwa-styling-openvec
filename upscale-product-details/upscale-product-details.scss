@@ -329,6 +329,7 @@ $fixed-button-bar-height: 100px;
 			font-style: italic;
 			margin-bottom: 12px;
 			color: $error;
+			font-family: 'Poppins' !important;
 		}
 	}
 	.actions__buttons {
@@ -617,6 +618,7 @@ $fixed-button-bar-height: 100px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: flex-end; // VC change
 
 	upscale-volume-pricing::ng-deep {
 		.volume-pricing {
@@ -915,9 +917,9 @@ $fixed-button-bar-height: 100px;
 			color: $black;
             padding-bottom: 20px; //VC change
 			font-size: 21px !important; // VC Change
-			&-s {
+			/*&-s {
 				text-decoration: line-through !important;
-			}
+			}*/
 
 		}
 	}

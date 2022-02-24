@@ -691,20 +691,20 @@ $fixed-button-bar-height: 100px;
 		margin: 0px 20px 0px 20px;
 
 		upscale-shipping-options::ng-deep {
-			visibility: hidden; // VC change
+			
 			mat-radio-group {
 				&.shipping-choices {
-					visibility: hidden;
+					
 					font-weight: normal;
 					border-top: solid 0px #efefef;
 					border-bottom: solid 0px #efefef;
 					.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
 						border-color: $black;
-						visibility: hidden;
+						
 					}
 
 					.mat-radio-button.mat-accent .mat-radio-inner-circle {
-						visibility: hidden;
+						
 						color: $black;
 						background-color: $black;
 					}

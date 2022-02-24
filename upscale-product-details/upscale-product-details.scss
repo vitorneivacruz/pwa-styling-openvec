@@ -667,7 +667,7 @@ $fixed-button-bar-height: 100px;
 	position: fixed;
 	bottom: 0;
 	z-index: 1;
-	font-family: 'Poppins'; // VC change
+	font-family: 'Poppins' !important; // VC change
 
 	@media (max-width: 599px) {
 		border: 1px solid #efefef;
@@ -716,6 +716,7 @@ $fixed-button-bar-height: 100px;
 
 	.kit-buttons {
 		text-align: start;
+		font-family: 'Poppins' !important;
 
 		.buttons {
 			width: 100%;
@@ -914,7 +915,7 @@ $fixed-button-bar-height: 100px;
 			color: $black;
             padding-bottom: 20px; //VC change
 			font-size: 21px !important; // VC Change
-			s {
+			&-s {
 				text-decoration: line-through !important;
 			}
 

@@ -914,15 +914,9 @@ $fixed-button-bar-height: 100px;
 		}
 
 		&-price {
-			@include base-font-size;
-			font-stretch: normal;
-			letter-spacing: normal;
-			color: $black;
             padding-bottom: 20px; //VC change
 			font-size: 21px !important; // VC Change
-			/*&-s {
-				text-decoration: line-through !important;
-			}*/
+		
 
 		}
 	}

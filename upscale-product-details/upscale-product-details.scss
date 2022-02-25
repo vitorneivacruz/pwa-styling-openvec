@@ -868,6 +868,10 @@ $fixed-button-bar-height: 100px;
 		&-price {
             padding-bottom: 20px; //VC change
 			font-size: 21px !important; // VC Change
+			@media (max-width: 599px) { 
+				font-size: 18px;
+				
+			}
 		
 
 		}

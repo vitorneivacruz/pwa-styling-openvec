@@ -825,8 +825,6 @@ $fixed-button-bar-height: 100px;
 }
 
 .kit-summary-headline {
-	@include large-font-size;
-	padding: 24px;
 	display: flex;
 	justify-content: center;
 	font-stretch: normal;
@@ -834,6 +832,7 @@ $fixed-button-bar-height: 100px;
 	color: #B15533; //$black; VC Change
 	font-weight: 500 !important;
 	margin-top: 30px; //VC change
+	text-align: center;
 }
 
 
@@ -852,6 +851,7 @@ $fixed-button-bar-height: 100px;
 		&-name {
 			color: #B15533; //$black; VC change
 			font-weight: 500 !important;
+			margin-top: 10px;
 
 			&-dialog {
 				
@@ -862,6 +862,7 @@ $fixed-button-bar-height: 100px;
 		&-description {
            
 			-webkit-line-clamp: 2;
+			margin-top: 5px;
 			
 		}
 

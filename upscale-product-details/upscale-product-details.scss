@@ -840,10 +840,10 @@ $fixed-button-bar-height: 100px;
 .kit-banner {
     height: 100%; //80%; VC change
     
-
         &-media {
 		background-color: rgba(255,255,255,.8); // rgba(255, 255, 255);
 		align-items: center; // VC change	
+		background-position: center;
 	}
 
 	&-title {
@@ -861,7 +861,7 @@ $fixed-button-bar-height: 100px;
 
 		&-description {
            
-			-webkit-line-clamp: 3;
+			-webkit-line-clamp: 2;
 			
 		}
 
@@ -869,7 +869,7 @@ $fixed-button-bar-height: 100px;
             padding-bottom: 20px; //VC change
 			font-size: 21px !important; // VC Change
 			@media (max-width: 599px) { 
-				font-size: 18px;
+				font-size: 18px !important;
 				
 			}
 		
@@ -881,9 +881,12 @@ $fixed-button-bar-height: 100px;
 @include upscale-multiple(medium, large, extra-large) {
 	:host{
 		.kit-banner-title{
-			height: 50%;
+			height: 75%;
 		}
-		
+		.kit-banner-title-description {
+			padding-top: 10px;
+			-webkit-line-clamp: 2;
+		}
 	}
 }
 

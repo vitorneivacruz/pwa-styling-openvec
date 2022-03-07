@@ -1,4 +1,4 @@
-@import '~styles/helpers/_module';
+//@import '~styles/helpers/_module';
 
 :host {
 	&.default {
@@ -44,7 +44,7 @@
 			}
 		}
 	}
-
+/*
 	&.collapsed {
 		@include clickable;
 		height: 50px;
@@ -84,4 +84,4 @@
 			pointer-events: none;
 		}
 	}
-}
+}*/

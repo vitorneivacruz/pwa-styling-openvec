@@ -1,0 +1,53 @@
+@import '~styles/helpers/_module';
+@import '~app/shared/formgroup-input-container/formgroup-input-container-mixins';
+@import '../account-styles';
+
+:host {
+	
+
+	.content {
+		
+
+		.create-address-btn {
+			
+			width: 170px;
+			border-radius: 4px;
+            border-color: transparent;
+            font-size: 16px;
+            background-color: rgb(177, 85, 51)
+		}
+
+		.address-listing {
+			
+
+			
+
+			
+
+			&__address {
+				
+                display: block;
+
+				
+
+				&__default {
+					
+					border-radius: 4px;
+					background-color: rgb(177, 85, 51);
+					
+				}
+
+				
+			}
+
+			&__buttons {
+				display: flex;
+                align-items: flex-end;
+
+				
+			}
+		}
+
+		
+	}
+}

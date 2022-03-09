@@ -2,22 +2,7 @@
 
 :host {
 	.formgroup-input-container.show-as-modal {
-		margin-bottom: 0;
-
-		.shipping-wrapper {
-			padding: 0;
-
-			input[type='text'],
-			select {
-				padding-right: 0;
-			}
-
-			input[type='text'],
-			select,
-			.select-input {
-				border-top-width: 1px;
-			}
-		}
+		
 
 		::ng-deep .formgroup__button {
 			border-radius: 0;
@@ -37,55 +22,9 @@
 		margin-bottom: 20px;
 	}
 
-	.shipping-address-list {
-		background-color: $white;
-		border-top: 1px solid $upscale-grey11;
-		border-bottom: 1px solid $upscale-grey11;
+	
 
-		display: flex;
-		flex-direction: column;
-
-		.selected-ship-address {
-			border-bottom: 1px solid $upscale-grey11;
-			padding: 14px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-
-			.address {
-				display: flex;
-				flex-direction: column;
-			}
-
-			.actions {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-evenly;
-				align-items: center;
-				gap: 12px;
-
-				.chevron::before {
-					border-style: solid;
-					border-width: 2px 2px 0 0;
-					content: '';
-					display: inline-block;
-					height: 7px;
-					left: 5px;
-					position: relative;
-					top: -3px;
-					transform: rotate(135deg);
-					width: 7px;
-					border-color: $upscale-grey2;
-				}
-			}
-		}
-
-		.new-address {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding: 14px;
-		}
+		
 
 		.action-button {
 			padding: 8px 20px 8px 21px;
@@ -160,13 +99,13 @@
 			}
 		}
 
-		.optional-label {
+		/*.optional-label {
 			position: absolute;
 			right: 0;
 			border-top: 2px solid $upscale-grey11;
 			border-right: 2px solid $upscale-grey11;
 			margin-top: 0;
-		}
+		}*/
 	}
 
 	.save-address-container {
@@ -213,7 +152,7 @@ select {
 	}
 }
 
-.input-row {
+/*.input-row {
 	display: flex;
 }
 
@@ -238,19 +177,20 @@ select {
 		padding-left: 12px;
 		background-color: $white;
 	}
-}
+}*/
 
-.saved-data {
+
+/*.saved-data {
 	line-height: 1.33;
 	text-align: left;
 	color: black;
 	border-top: 1px solid $upscale-grey11;
 	padding: 14px;
 	background-color: white;
-}
+}*/
 
-.text-input {
-	width: 100%;
+/*.text-input {
+	flex: 1;
 	position: relative;
 	display: flex;
 
@@ -279,11 +219,11 @@ select {
 		line-height: 45px;
 		white-space: nowrap;
 	}
-}
+}*/
 
 .select-input {
 	width: 100%;
-	position: relative;
+	/*position: relative;
 
 	select {
 		appearance: none;
@@ -304,5 +244,5 @@ select {
 		top: 50%;
 		transform: rotate(-45deg);
 		margin-top: -8px;
-	}
+	}*/
 }

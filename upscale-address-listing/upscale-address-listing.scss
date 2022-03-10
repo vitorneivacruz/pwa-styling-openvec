@@ -16,10 +16,15 @@
 		.address-listing {	
 
 			::ng-deep .formgroup {
+				&__actions {
+					justify-content: flex-end;
+					align-items: center;
+				}
 				
-
 				&__button {
 					color: white;
+					border: none;
+					font-weight: 500;
 					
 				}
 			}

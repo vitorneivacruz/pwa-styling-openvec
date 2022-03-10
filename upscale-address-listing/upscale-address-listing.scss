@@ -1,7 +1,3 @@
-@import '~styles/helpers/_module';
-@import '~app/shared/formgroup-input-container/formgroup-input-container-mixins';
-@import '../account-styles';
-
 :host {
 	
 
@@ -17,37 +13,22 @@
             background-color: rgb(177, 85, 51);
 		}
 
-		.address-listing {
-			
-
-			
-
-			
+		.address-listing {	
 
 			&__address {
 				
                 display: block;
-
 				
-
 				&__default {
 					
 					border-radius: 4px;
-					background-color: rgb(177, 85, 51);
-					
+					background-color: rgb(177, 85, 51);	
 				}
-
-				
 			}
 
 			&__buttons {
 				display: flex;
-                align-items: flex-end;
-
-				
-			}
-		}
-
-		
-	}
+                align-items: flex-end;}
+        }
+    }
 }
